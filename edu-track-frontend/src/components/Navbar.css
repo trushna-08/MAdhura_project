@@ -1,0 +1,12 @@
+.navbar {
+  background-color: #4CAF50; /* green */
+  color: white;
+  padding: 15px 20px;
+  font-size: 24px;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar span {
+  color: #fff;
+}

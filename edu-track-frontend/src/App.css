@@ -1,0 +1,126 @@
+/* Global */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+/* Card */
+.card {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+.card h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Input and button container */
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.input-group input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  flex: 1;
+}
+
+.input-group button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #4CAF50;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.input-group button:hover {
+  background-color: #45a049;
+}
+
+/* Table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #f0f0f0;
+  color: #555;
+}
+
+.table tr:hover {
+  background-color: #f9f9f9;
+}
+.button {
+  background-color: #1D4ED8; /* nice blue */
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px; /* bigger size */
+  border-radius: 8px; /* rounded corners */
+  border: none;
+  cursor: pointer;
+  font-size: 16px; /* bigger text */
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.button:hover {
+  background-color: #2563EB; /* slightly lighter on hover */
+  transform: scale(1.05); /* small zoom effect */
+}
+
+.button:active {
+  background-color: #1E40AF; /* darker blue on click */
+}
+.button {
+  background-color: #1D4ED8;
+  color: white;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.button:hover {
+  background-color: #2563EB;
+  transform: scale(1.05);
+}
+
+.button:active {
+  background-color: #1E40AF;
+}
+
+.input {
+  padding: 10px 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
